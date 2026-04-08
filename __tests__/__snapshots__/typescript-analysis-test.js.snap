@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`lints with the typescript-analysis config: fixtures/typescript-analysis-00.ts 1`] = `
+exports[`lints with the typescript-analysis config: ../fixtures/typescript-analysis-00.ts 1`] = `
 {
   "errorCount": 0,
   "messages": [
@@ -51,7 +51,7 @@ exports[`lints with the typescript-analysis config: fixtures/typescript-analysis
 }
 `;
 
-exports[`lints with the typescript-analysis config: fixtures/typescript-analysis-01.ts 1`] = `
+exports[`lints with the typescript-analysis config: ../fixtures/typescript-analysis-01.ts 1`] = `
 {
   "errorCount": 1,
   "messages": [
@@ -74,7 +74,7 @@ exports[`lints with the typescript-analysis config: fixtures/typescript-analysis
 }
 `;
 
-exports[`lints with the typescript-analysis config: fixtures/typescript-analysis-02.ts 1`] = `
+exports[`lints with the typescript-analysis config: ../fixtures/typescript-analysis-02.ts 1`] = `
 {
   "errorCount": 0,
   "messages": [
@@ -97,7 +97,7 @@ exports[`lints with the typescript-analysis config: fixtures/typescript-analysis
 }
 `;
 
-exports[`lints with the typescript-analysis config: fixtures/typescript-analysis-03.ts 1`] = `
+exports[`lints with the typescript-analysis config: ../fixtures/typescript-analysis-03.ts 1`] = `
 {
   "errorCount": 0,
   "messages": [
@@ -120,7 +120,7 @@ exports[`lints with the typescript-analysis config: fixtures/typescript-analysis
 }
 `;
 
-exports[`lints with the typescript-analysis config: fixtures/typescript-analysis-04.ts 1`] = `
+exports[`lints with the typescript-analysis config: ../fixtures/typescript-analysis-04.ts 1`] = `
 {
   "errorCount": 2,
   "messages": [
