@@ -19,6 +19,7 @@ export default defineConfig({
     'typescript/no-confusing-void-expression': 'warn',
     'typescript/no-extra-non-null-assertion': 'warn',
     'typescript/no-floating-promises': 'warn',
+    'typescript/no-implied-eval': 'warn',
     'typescript/no-for-in-array': 'error',
     'typescript/no-misused-promises': ['error', { checksVoidReturn: false }],
     'typescript/no-unnecessary-type-assertion': 'warn',

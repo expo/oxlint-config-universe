@@ -59,17 +59,16 @@ This config intentionally omits all formatting/style rules (spacing, semicolons,
 
 ## Rules not covered by oxlint
 
-The following rules from `eslint-config-universe` do not have oxlint equivalents. If you need them, you'll need to keep ESLint running alongside oxlint for these specific rules, or accept the gap.
+The following rules from `eslint-config-universe` do not have `oxlint-config-universe` coverage. If you need them, you'll need to keep ESLint running alongside oxlint for these specific rules, or accept the gap.
 
 ### Core ESLint rules
 
-| Rule              | Notes                                                            |
-| ----------------- | ---------------------------------------------------------------- |
-| `no-dupe-args`    | Not implemented in oxlint                                        |
-| `no-implied-eval` | Only available as `typescript/no-implied-eval`, not for plain JS |
-| `no-new-symbol`   | oxlint has `no-new-native-nonconstructor` as a successor         |
-| `no-octal`        | Not implemented                                                  |
-| `no-octal-escape` | Not implemented                                                  |
+| Rule              | Notes                                                                                   |
+| ----------------- | --------------------------------------------------------------------------------------- |
+| `no-dupe-args`    | Not implemented in oxlint                                                               |
+| `no-implied-eval` | Only available with type-aware, present in `oxlint-config-universe/typescript-analysis` |
+| `no-octal`        | Not implemented                                                                         |
+| `no-octal-escape` | Not implemented                                                                         |
 
 ### Import rules
 
@@ -90,18 +89,6 @@ Recommended oxfmt config to match eslint-config-universe import/order configurat
   "ignoreCase": false
 }
 ```
-
-### TypeScript rules
-
-These ESLint rules have TypeScript-specific overrides that don't exist in oxlint. The base ESLint versions are included in core and may work adequately for TypeScript files, but lack TypeScript-aware handling (e.g., understanding type-only imports):
-
-| Rule                                        | Notes                                     |
-| ------------------------------------------- | ----------------------------------------- |
-| `@typescript-eslint/no-dupe-class-members`  | Core `no-dupe-class-members` is included  |
-| `@typescript-eslint/no-redeclare`           | Core `no-redeclare` is included           |
-| `@typescript-eslint/no-unused-expressions`  | Core `no-unused-expressions` is included  |
-| `@typescript-eslint/no-unused-vars`         | Core `no-unused-vars` is included         |
-| `@typescript-eslint/no-useless-constructor` | Core `no-useless-constructor` is included |
 
 ### React rules
 
