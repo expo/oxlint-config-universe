@@ -58,6 +58,7 @@ export default defineConfig({
     'no-multi-assign': 'warn',
     'no-new': 'warn',
     'no-new-func': 'warn',
+    'no-new-native-nonconstructor': 'warn',
     'no-object-constructor': 'warn',
     'no-obj-calls': 'warn',
     'no-proto': 'warn',
