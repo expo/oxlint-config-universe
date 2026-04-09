@@ -1,6 +1,6 @@
 {
   "name": "oxlint-config-universe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Shared oxlint configs for internal Expo projects.",
   "keywords": [
     "expo",
