@@ -36,7 +36,7 @@ export default defineConfig({
     'no-const-assign': 'error',
     'no-constant-binary-expression': 'warn',
     'no-constant-condition': ['warn', { checkLoops: false }],
-    'no-control-regex': 'off',
+    'no-control-regex': 'warn',
     'no-debugger': 'warn',
     'no-delete-var': 'error',
     'no-dupe-class-members': 'error',
